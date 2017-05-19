@@ -1,2 +1,2 @@
-# Material
+# SpecialModule
 ---
