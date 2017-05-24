@@ -14,3 +14,5 @@ sudo /home/bigdata/software/anaconda/bin/pip install sklearn_pandas-1.4.0-py2.py
 
 ```
 :bowtie:
+
+/play secret
