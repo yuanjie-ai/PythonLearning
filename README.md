@@ -1,6 +1,5 @@
 # SpecialModule
-:bowtie:
-:smile:
+:kissing_closed_eyes:
 ---
 - Install whl
 ```
