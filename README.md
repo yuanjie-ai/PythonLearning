@@ -1,5 +1,6 @@
 # SpecialModule
 :bowtie:
+:smile:
 ---
 - Install whl
 ```
