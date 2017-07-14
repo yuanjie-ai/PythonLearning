@@ -2,8 +2,8 @@
 
 # 数据库
 - Hive有内部表和外部表两类表，是否都可以分区 （判断题）
-- Hive 中udtf功能和过程
-- Hive数据存储格式textfile
+- Hive 中udf功能和过程
+- Hive数据默认存储格式textfile
 ---
 :kissing_closed_eyes:
 # 统计
