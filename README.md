@@ -6,15 +6,10 @@
 ```
 pip install --upgrade tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-- s
-    - s
 
 - 默认配置
-
- - linux: linux的文件在~/.pip/pip.conf
- 
- - windows: windows在%HOMEPATH%\pip\pip.ini
- 
+    - linux: linux的文件在~/.pip/pip.conf
+    - windows: windows在%HOMEPATH%\pip\pip.ini 
 ```
 [global]
 trusted-host =  pypi.tuna.tsinghua.edu.cn
