@@ -23,6 +23,14 @@ sudo /home/bigdata/software/anaconda/bin/pip install sklearn_pandas-1.4.0-py2.py
 ```
 ---
 
+# jupyter
+- 多输出交互
+```
+echo 'c = get_config()
+# Run all nodes interactively
+c.InteractiveShell.ast_node_interactivity = "all"' >> .ipython/profile_default/ipython_config.py
+```
+
 # 算法框架
 ```
 xgboost
