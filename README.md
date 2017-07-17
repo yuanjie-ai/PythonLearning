@@ -44,6 +44,11 @@ tensorflow
 ```
 sklearn_pandas
 ```
+
+## Json
+```
+json-transporter
+```
 ---
 
 # 评估指标
@@ -53,9 +58,14 @@ ml_metrics
 ---
 
 # 数据库
+## Sql
 - ORM
 ```
 sqlalchemy
+```
+- MySql
+```
+pymysql
 ```
 
 - Hive
@@ -70,9 +80,13 @@ thriftpy
 ply
 sqlalchemy
 ```
+## NoSql
 
-- MySql
+- HBase
 ```
-pymysql
+happybase
 ```
+
+
+
 
