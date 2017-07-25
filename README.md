@@ -2,6 +2,7 @@
 
 ---
 - [IntelPython][1]
+- [Anaconda][2]
 ---
 
 # pip
@@ -94,3 +95,4 @@ happybase
 
 ---
 [1]: https://registrationcenter.intel.com/en/products/postregistration/?sn=33RM-3MBWH7T6&EmailID=313303303%40qq.com&Sequence=2053363
+[2]: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
