@@ -6,6 +6,8 @@
 - [Anaconda][2]
 - [WinWheel][3]
 ---
+- [美团技术博客][4]
+---
 
 # pip
 - Online: 镜像源加速
@@ -100,3 +102,4 @@ happybase
 [1]: https://registrationcenter.intel.com/en/products/postregistration/?sn=CTGC-JS77PNXP&EmailID=313303303%40qq.com&Sequence=2053363&dnld=t
 [2]: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 [3]: http://www.lfd.uci.edu/~gohlke/pythonlibs/
+[4]: https://tech.meituan.com/
