@@ -2,6 +2,7 @@
 
 ---
 - [Linux][0]
+    - [RPM][5]
 - [IntelPython][1]
 - [Anaconda][2]
 - [WinWheel][3]
@@ -103,3 +104,4 @@ happybase
 [2]: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 [3]: http://www.lfd.uci.edu/~gohlke/pythonlibs/
 [4]: https://tech.meituan.com/
+[5]: http://rpmfind.net/linux/rpm2html/search.php
