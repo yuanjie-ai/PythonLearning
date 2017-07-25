@@ -1,5 +1,4 @@
-
-# :roket:
+# :rocket: Python Learning :facepunch: 
 ---
 # pip
 - Online: 镜像源加速
