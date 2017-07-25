@@ -1,6 +1,7 @@
-# :rocket: Python Learning :facepunch:
+# :rocket: Learning :facepunch:
 
 ---
+- [Linux][0]
 - [IntelPython][1]
 - [Anaconda][2]
 ---
@@ -94,5 +95,6 @@ happybase
 
 
 ---
+[0]: https://jaywcjlove.github.io/linux-command/
 [1]: https://registrationcenter.intel.com/en/products/postregistration/?sn=CTGC-JS77PNXP&EmailID=313303303%40qq.com&Sequence=2053363&dnld=t
 [2]: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
