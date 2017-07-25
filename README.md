@@ -1,5 +1,9 @@
-# :rocket: Python Learning :facepunch: 
+# :rocket: Python Learning :facepunch:
+
 ---
+- [IntelPython][1]
+---
+
 # pip
 - Online: 镜像源加速
 ```
@@ -88,4 +92,5 @@ happybase
 
 
 
-
+---
+[1]: https://registrationcenter.intel.com/en/products/postregistration/?sn=33RM-3MBWH7T6&EmailID=313303303%40qq.com&Sequence=2053363
