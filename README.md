@@ -1,5 +1,5 @@
-# SpecialModule
-:kissing_closed_eyes:
+
+# :roket:
 ---
 # pip
 - Online: 镜像源加速
