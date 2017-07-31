@@ -6,6 +6,7 @@
 - [IntelPython][1]
 - [Anaconda][2]
 - [WinWheel][3]
+- [Jetbrians注册码][6]
 ---
 - [美团技术博客][4]
 ---
@@ -105,3 +106,4 @@ happybase
 [3]: http://www.lfd.uci.edu/~gohlke/pythonlibs/
 [4]: https://tech.meituan.com/
 [5]: http://rpmfind.net/linux/rpm2html/search.php
+[6]: http://xidea.online
