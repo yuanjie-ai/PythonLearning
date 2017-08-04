@@ -10,6 +10,8 @@
 ---
 - [美团技术博客][4]
 ---
+# git
+- [git push][7]
 
 # pip
 - Online: 镜像源加速
@@ -107,3 +109,4 @@ happybase
 [4]: https://tech.meituan.com/
 [5]: http://rpmfind.net/linux/rpm2html/search.php
 [6]: http://xidea.online
+[7]: http://www.cnblogs.com/qianqiannian/p/6008140.html
