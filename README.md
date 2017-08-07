@@ -37,7 +37,7 @@ sudo /home/bigdata/software/anaconda/bin/pip install sklearn_pandas-1.4.0-py2.py
 ```
 ---
 
-# Jupyter
+# [Jupyter][10]
 - 多输出交互
 ```
 echo 'c = get_config()
@@ -114,3 +114,4 @@ happybase
 [7]: http://www.cnblogs.com/qianqiannian/p/6008140.html
 [8]: http://www.cygwin.com/
 [9]: http://www.voidtools.com/
+[10]: http://nbviewer.jupyter.org/
