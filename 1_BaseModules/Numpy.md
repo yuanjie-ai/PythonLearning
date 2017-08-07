@@ -5,7 +5,8 @@
 a = np.arange(10)
 a[:, np.newaxis]
 a.reshape((-1,1))
-
+```
+```
 array([[0],
        [1],
        [2],
