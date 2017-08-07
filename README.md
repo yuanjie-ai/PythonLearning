@@ -37,7 +37,7 @@ sudo /home/bigdata/software/anaconda/bin/pip install sklearn_pandas-1.4.0-py2.py
 ```
 ---
 
-# [Jupyter][10]
+# [Jupyter][10]: A simple way to share Jupyter Notebooks
 - 多输出交互
 ```
 echo 'c = get_config()
