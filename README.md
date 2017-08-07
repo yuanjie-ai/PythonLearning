@@ -8,6 +8,7 @@
 - [Anaconda][2]
 - [WinWheel][3]
 - [Jetbrians注册码][6]
+- [Every][9]
 ---
 - [美团技术博客][4]
 ---
@@ -112,3 +113,4 @@ happybase
 [6]: http://xidea.online
 [7]: http://www.cnblogs.com/qianqiannian/p/6008140.html
 [8]: http://www.cygwin.com/
+[9]: http://www.voidtools.com/
