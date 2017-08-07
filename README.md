@@ -15,6 +15,7 @@
 # Git
 - [git push][7]
 - Git常用命令速查
+![Git常用命令速查][11]
 
 
 # Pip
@@ -117,3 +118,4 @@ happybase
 [8]: http://www.cygwin.com/
 [9]: http://www.voidtools.com/
 [10]: http://nbviewer.jupyter.org/
+[11]: http://chuantu.biz/t5/162/1502091349x1884350018.png
