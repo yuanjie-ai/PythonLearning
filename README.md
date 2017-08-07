@@ -3,15 +3,19 @@
 ---
 - [Linux][0]
     - [RPM][5]
+- [Cygwin][8]
 - [IntelPython][1]
 - [Anaconda][2]
 - [WinWheel][3]
 - [Jetbrians注册码][6]
+- [Everything][9]
 ---
 - [美团技术博客][4]
 ---
+# Git
+- [git push][7]
 
-# pip
+# Pip
 - Online: 镜像源加速
 ```
 pip install --upgrade tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -33,7 +37,7 @@ sudo /home/bigdata/software/anaconda/bin/pip install sklearn_pandas-1.4.0-py2.py
 ```
 ---
 
-# jupyter
+# Jupyter
 - 多输出交互
 ```
 echo 'c = get_config()
@@ -107,3 +111,6 @@ happybase
 [4]: https://tech.meituan.com/
 [5]: http://rpmfind.net/linux/rpm2html/search.php
 [6]: http://xidea.online
+[7]: http://www.cnblogs.com/qianqiannian/p/6008140.html
+[8]: http://www.cygwin.com/
+[9]: http://www.voidtools.com/
