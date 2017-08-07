@@ -8,7 +8,7 @@
 - [Anaconda][2]
 - [WinWheel][3]
 - [Jetbrians注册码][6]
-- [Every][9]
+- [Everything][9]
 ---
 - [美团技术博客][4]
 ---
