@@ -2,7 +2,7 @@
 
 ---
 - [Linux][0]
-    - [RPM][5]
+    - [RPM][5]
 - [Cygwin][8]
 - [IntelPython][1]
 - [Anaconda][2]
