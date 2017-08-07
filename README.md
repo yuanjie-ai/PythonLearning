@@ -11,7 +11,10 @@
 - [Jetbrians注册码][6]
 - [Everything][9]
 ---
+# 资源类
+- [最流行数据集][12]
 - [美团技术博客][4]
+
 ---
 ## Git
 - [git push][7]
@@ -123,3 +126,4 @@ happybase
 [9]: http://www.voidtools.com/
 [10]: http://nbviewer.jupyter.org/
 [11]: http://chuantu.biz/t5/162/1502091545x1884350018.jpg
+[12]: http://archive.ics.uci.edu/ml/index.php
