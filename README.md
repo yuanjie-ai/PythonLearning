@@ -17,7 +17,7 @@
 - Git常用命令速查
 ![Git常用命令速查][11]
 
-
+---
 # Pip
 - Online: 镜像源加速
 ```
@@ -75,6 +75,7 @@ ml_metrics
 ---
 
 # 数据库
+---
 ## Sql
 - ORM
 ```
@@ -84,7 +85,7 @@ sqlalchemy
 ```
 pymysql
 ```
-
+---
 - Hive
 > sqlalchemy中hive的url形式: hive://localhost:port/database?auth=XX
 ```
@@ -97,8 +98,9 @@ thriftpy
 ply
 sqlalchemy
 ```
+---
 ## NoSql
-
+---
 - HBase
 ```
 happybase
