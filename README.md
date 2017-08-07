@@ -47,7 +47,7 @@ echo 'c = get_config()
 # Run all nodes interactively
 c.InteractiveShell.ast_node_interactivity = "all"' >> .ipython/profile_default/ipython_config.py
 ```
-
+---
 # 算法框架
 ```
 xgboost
