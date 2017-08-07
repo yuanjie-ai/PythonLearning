@@ -1,6 +1,7 @@
 # :rocket: Learning :facepunch:
 
 ---
+## 工具类
 - [Linux][0]
     - [RPM][5]
 - [Cygwin][8]
@@ -12,13 +13,13 @@
 ---
 - [美团技术博客][4]
 ---
-# Git
+## Git
 - [git push][7]
 - Git常用命令速查
 ![Git常用命令速查][11]
 
 ---
-# Pip
+## Pip
 - Online: 镜像源加速
 ```
 pip install --upgrade tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -40,7 +41,7 @@ sudo /home/bigdata/software/anaconda/bin/pip install sklearn_pandas-1.4.0-py2.py
 ```
 ---
 
-# [Jupyter][10]: A simple way to share Jupyter Notebooks
+## [Jupyter][10]: A simple way to share Jupyter Notebooks
 - IpynbShow: nbviewer.jupyter.org/github/Jie-Yuan+项目
 - 多输出交互
 ```
@@ -49,7 +50,7 @@ echo 'c = get_config()
 c.InteractiveShell.ast_node_interactivity = "all"' >> .ipython/profile_default/ipython_config.py
 ```
 ---
-# 算法框架
+## 算法框架
 ```
 xgboost
 lightgbm
@@ -58,7 +59,7 @@ tensorflow
 ```
 ---
 
-# 预处理
+## 预处理
 ```
 sklearn_pandas
 ```
@@ -69,15 +70,15 @@ json-transporter
 ```
 ---
 
-# 评估指标
+## 评估指标
 ```
 ml_metrics
 ```
 ---
 
-# 数据库
+## 数据库
 ---
-## Sql
+### Sql
 - ORM
 ```
 sqlalchemy
@@ -100,7 +101,7 @@ ply
 sqlalchemy
 ```
 ---
-## NoSql
+### NoSql
 ---
 - HBase
 ```
