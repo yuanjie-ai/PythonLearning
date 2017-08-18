@@ -25,6 +25,27 @@ listExplode(df, 'a').show()
 |[1, 2, 3]|  1|  2|  3|
 +---------+---+---+---+
 ```
+- 加一列数组
+```
+def litArray(ls=[]):
+    return(array([lit(i) for i in ls]))
+
+df.withColumn('new', litArray(['a', 'b', 'c'])).show()
++---+---------+
+| id|      new|
++---+---------+
+|  0|[a, b, c]|
+|  1|[a, b, c]|
+|  2|[a, b, c]|
+|  3|[a, b, c]|
+|  4|[a, b, c]|
+|  5|[a, b, c]|
+|  6|[a, b, c]|
+|  7|[a, b, c]|
+|  8|[a, b, c]|
+|  9|[a, b, c]|
++---+---------+
+```
 ---
 ## colToList
 > df为一列
