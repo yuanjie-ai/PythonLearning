@@ -28,7 +28,7 @@ listExplode(df, 'a').show()
 ---
 ## colToList
 > df为一列
-- 取列前几行
+- 取该列前几行
 ```
 def takeN(df, n=5):
     return np.array(df.take(n)).flatten().tolist()
