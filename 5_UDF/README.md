@@ -66,3 +66,12 @@ def colToList(df):
 colToList(df)
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
+
+---
+## 数据类型转换
+```
+arrayToVector = udf(lambda x: Vectors.dense(x), VectorUDT())
+vectorToArray = udf(lambda x: [float(i) for i in x], ArrayType(FloatType()))
+```
+
+---
