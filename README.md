@@ -10,6 +10,11 @@
 - [WinWheel][3]
 - [Jetbrians注册码][6]
 - [Everything][9]
+- Notepad++
+    - Notepad++ ->"运行"菜单->"运行"按钮
+    ```
+    cmd /k python "$(FULL_CURRENT_PATH)" & ECHO. & PAUSE & EXIT
+    ```
 ---
 # 资源类
 - [最流行数据集][12]
