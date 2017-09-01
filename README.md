@@ -25,6 +25,11 @@
 ## Git
 - [git push][7]
 - [git branch][14]
+```
+# 检验线上线下一致性
+git add/rm ...
+git checkout
+```
 - Git常用命令速查
 ![Git常用命令速查][11]
 
