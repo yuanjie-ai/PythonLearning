@@ -24,8 +24,8 @@
 ---
 ## Git
 - [git push][7]
+- [git branch][14]
 - Git常用命令速查
-> 首次提交: git push origin master
 ![Git常用命令速查][11]
 
 ---
@@ -135,3 +135,4 @@ happybase
 [11]: http://chuantu.biz/t5/162/1502091545x1884350018.jpg
 [12]: http://archive.ics.uci.edu/ml/index.php
 [13]: http://www.matools.com/
+[14]: http://blog.csdn.net/arkblue/article/details/9568249/
