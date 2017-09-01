@@ -25,6 +25,7 @@
 ## Git
 - [git push][7]
 - Git常用命令速查
+> 首次提交: git push origin master
 ![Git常用命令速查][11]
 
 ---
