@@ -1,6 +1,12 @@
-# :rocket: UDF :facepunch:
+# :rocket: UDFs :facepunch:
 ---
+## CommonOperation
+- [UDF][1]
+- [UDAF][2]
+- [UDTF][3]
 
+---
+# 自定义函数
 ## List(spark array)
 - 列表去重顺序不变
 ```
@@ -75,3 +81,29 @@ vectorToArray = udf(lambda x: [float(i) for i in x], ArrayType(FloatType()))
 ```
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+[1]: https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF
+[2]: https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF#LanguageManualUDF-Built-inAggregateFunctions(UDAF)
+[3]: https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF#LanguageManualUDF-Built-inTable-GeneratingFunctions(UDTF)
