@@ -12,6 +12,7 @@
 - [Everything][9]
 - [Matools][13]
 - [Convert Excel sheet to MarkDown Table][15]
+- [Pypi][18]
 - Notepad++
     - Notepad++ ->"运行"菜单->"运行"按钮
     ```
@@ -148,3 +149,4 @@ happybase
 [15]: https://github.com/fanfeilong/exceltk
 [16]: https://emojipedia.org/
 [17]: https://www.webpagefx.com/tools/emoji-cheat-sheet/
+[18]: https://pypi.tuna.tsinghua.edu.cn/simple/
