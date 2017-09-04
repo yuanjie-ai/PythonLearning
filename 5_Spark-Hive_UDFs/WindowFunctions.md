@@ -22,8 +22,6 @@ df = df1.union(df2)
 ```
 ```
 df.withColumn('new',expr("id - mean(id) OVER() ")).show()
-df.withColumn('new',expr("mean(id) OVER(PARTITION BY a) ")).show()
-
 +---+---+----+
 | id|  a| new|
 +---+---+----+
@@ -39,6 +37,7 @@ df.withColumn('new',expr("mean(id) OVER(PARTITION BY a) ")).show()
 |  9| 88| 4.5|
 +---+---+----+
 
+df.withColumn('new',expr("mean(id) OVER(PARTITION BY a) ")).show()
 +---+---+---+
 | id|  a|new|
 +---+---+---+
