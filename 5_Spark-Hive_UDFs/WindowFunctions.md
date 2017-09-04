@@ -1,4 +1,4 @@
-# :rocket: WindowFunctions :facepunch:
+# :rocket: [Windowing and Analytics Functions] :facepunch:
 ---
 ```
 df1 = spark.range(5).withColumn('a', lit(8))
@@ -53,3 +53,4 @@ df.withColumn('new',expr("mean(id) OVER(PARTITION BY a) ")).show()
 |  4|  8|2.0|
 +---+---+---+
 ```
+[1]: https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics
