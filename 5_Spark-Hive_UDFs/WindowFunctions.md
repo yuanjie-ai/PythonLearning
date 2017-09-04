@@ -1,4 +1,7 @@
 # :rocket: [Windowing and Analytics Functions][1] :facepunch:
+```
+COUNT(DISTINCT a) OVER (PARTITION BY c)
+```
 ---
 ```
 df1 = spark.range(5).withColumn('a', lit(8))
@@ -50,6 +53,66 @@ df.withColumn('new',expr("ntile(5) OVER(PARTITION BY a ORDER BY id) ")).show()
 +---+---+---+
 ```
 ---
+## Analytic functions
+- first(col, ignorenulls=False): first(xx) OVER(PARTITION BY xx ORDER BY xx DESC)
+- last(col, ignorenulls=False): last(xx) OVER(PARTITION BY xx ORDER BY xx DESC)
+- CUME_DIST: 累积分布
+```
+df.withColumn('new',expr("cume_dist() OVER(PARTITION BY a ORDER BY id) ")).show()
+
++---+---+---+
+| id|  a|new|
++---+---+---+
+|  5| 88|0.2|
+|  6| 88|0.4|
+|  7| 88|0.6|
+|  8| 88|0.8|
+|  9| 88|1.0|
+|  0|  8|0.2|
+|  1|  8|0.4|
+|  2|  8|0.6|
+|  3|  8|0.8|
+|  4|  8|1.0|
++---+---+---+
+```
+- lead(col, count=1, default=None): 向上滑动
+- 
+```
+df.withColumn('new',expr("lead(id) OVER(PARTITION BY a order by id) ")).show()
++---+---+----+
+| id|  a| new|
++---+---+----+
+|  5| 88|   6|
+|  6| 88|   7|
+|  7| 88|   8|
+|  8| 88|   9|
+|  9| 88|null|
+|  0|  8|   1|
+|  1|  8|   2|
+|  2|  8|   3|
+|  3|  8|   4|
+|  4|  8|null|
++---+---+----+
+```
+- lag(col, count=1, default=None): 向下滑动
+```
+df.withColumn('new',expr("lag(id) OVER(PARTITION BY a order by id) ")).show()
++---+---+----+
+| id|  a| new|
++---+---+----+
+|  5| 88|null|
+|  6| 88|   5|
+|  7| 88|   6|
+|  8| 88|   7|
+|  9| 88|   8|
+|  0|  8|null|
+|  1|  8|   0|
+|  2|  8|   1|
+|  3|  8|   2|
+|  4|  8|   3|
++---+---+----+
+```
+- 聚合函数: max/min/mean/sum...(可滑动/广播)
 ```
 df.withColumn('new',expr("id - mean(id) OVER() ")).show()
 +---+---+----+
