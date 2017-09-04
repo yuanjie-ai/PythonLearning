@@ -76,7 +76,6 @@ df.withColumn('new',expr("cume_dist() OVER(PARTITION BY a ORDER BY id) ")).show(
 +---+---+---+
 ```
 - lead(col, count=1, default=None): 向上滑动
-- 
 ```
 df.withColumn('new',expr("lead(id) OVER(PARTITION BY a order by id) ")).show()
 +---+---+----+
