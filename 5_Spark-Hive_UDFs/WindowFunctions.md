@@ -20,6 +20,36 @@ df = df1.union(df2)
 |  9| 88|
 +---+---+
 ```
+---
+## RankingFunctions
+- ROW_NUMBER
+```
+row_number() OVER(PARTITION BY xx ORDER BY xx)
+row_number().over(Window.partitionBy("xx").orderBy("xx"))
+```
+- RANK: 排名相等留下空位(1,2,2,4,5)
+- DENSE_RANK: 排名相等不留空位(1,2,2,3,4)
+- PERCENT_RANK: 分位数分布
+- NTILE: ntile(n): 1/n比例切割
+```
+df.withColumn('new',expr("ntile(5) OVER(PARTITION BY a ORDER BY id) ")).show()
+
++---+---+---+
+| id|  a|new|
++---+---+---+
+|  5| 88|  1|
+|  6| 88|  2|
+|  7| 88|  3|
+|  8| 88|  4|
+|  9| 88|  5|
+|  0|  8|  1|
+|  1|  8|  2|
+|  2|  8|  3|
+|  3|  8|  4|
+|  4|  8|  5|
++---+---+---+
+```
+---
 ```
 df.withColumn('new',expr("id - mean(id) OVER() ")).show()
 +---+---+----+
