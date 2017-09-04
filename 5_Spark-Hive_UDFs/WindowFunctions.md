@@ -1,4 +1,4 @@
-# :rocket: [Windowing and Analytics Functions] :facepunch:
+# :rocket: [Windowing and Analytics Functions][1] :facepunch:
 ---
 ```
 df1 = spark.range(5).withColumn('a', lit(8))
