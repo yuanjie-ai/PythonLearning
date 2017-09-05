@@ -27,7 +27,7 @@
 - [美团技术博客][4]
 
 ---
-## Git
+## [Git][19]
 - [git push][7]
 - [git branch][14]
 ```
@@ -150,3 +150,4 @@ happybase
 [16]: https://emojipedia.org/
 [17]: https://www.webpagefx.com/tools/emoji-cheat-sheet/
 [18]: https://pypi.tuna.tsinghua.edu.cn/simple/
+[19]: https://mp.weixin.qq.com/s/6kuJuJCng8AWVAlSYl1RrA
