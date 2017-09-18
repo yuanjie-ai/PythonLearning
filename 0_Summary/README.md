@@ -24,3 +24,8 @@ class p:
 <__main__.p instance at 0x7f052c3390e0>
 不知道什么场景        
 ```
+- h5
+```
+# complevel: 压缩级别（1-9，0是无压缩，默认值）, blosc提供非常快的压缩
+df.to_hdf(path, 'w', complib='blosc', complevel=5)
+```
