@@ -1,6 +1,6 @@
 # :rocket: 常用操作 :facepunch:
 ---
-- 取整数个位置数值
+- 取整数各位置数
 ```python
 f = lambda x: np.floor(x / np.array([10**i for i in range(len(str(x)))])) % 10
 f(123456789)
