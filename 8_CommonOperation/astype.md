@@ -1,5 +1,5 @@
 - Data type list
-```python
+
 |DataType|Description|
 |:--|:--|
 |bool_     | Boolean (True or False) stored as a byte
@@ -21,4 +21,4 @@
 |complex_  | Shorthand for complex128.
 |complex64 | Complex number, represented by two 32-bit floats (real and imaginary components)
 |complex128| Complex number, represented by two 64-bit floats (real and imaginary components)
-```
+
