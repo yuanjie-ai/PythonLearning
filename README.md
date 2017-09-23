@@ -1,6 +1,10 @@
 # :rocket: Learning :facepunch:
 
 ---
+## 镜像
+- [科大][88]
+- [清华][888]
+---
 ## 工具类
 - [Linux][0]
     - [RPM][5]
@@ -151,3 +155,5 @@ happybase
 [17]: https://www.webpagefx.com/tools/emoji-cheat-sheet/
 [18]: https://pypi.tuna.tsinghua.edu.cn/simple/
 [19]: https://mp.weixin.qq.com/s/6kuJuJCng8AWVAlSYl1RrA
+[88]: https://mirrors.ustc.edu.cn/
+[888]: https://mirrors.tuna.tsinghua.edu.cn
