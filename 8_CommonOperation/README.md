@@ -7,3 +7,15 @@ f(123456789)
 
 array([ 9.,  8.,  7.,  6.,  5.,  4.,  3.,  2.,  1.])
 ```
+- exec 被当成一个函数 ，可以通过以下的方法来进行将字符串变成变量的名字进行赋值
+```python
+x='buffalo'    
+exec("%s = %d" % (x,2))
+```
+```
+foo = "bar"
+exec(foo + " = 'something else'")
+print(bar)
+
+something else
+```
