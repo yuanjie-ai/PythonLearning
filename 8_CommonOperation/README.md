@@ -1,4 +1,5 @@
-# :rocket: 常用操作 :facepunch:
+<h1 align = "center">:rocket: 常用操作 :facepunch:</h1>
+
 ---
 - 取整数各位置数
 ```python
@@ -15,7 +16,7 @@ print(myVar)
 
 [1, 2, 3]
 ```
-- 生成器保存的是算法
+- 生成器保存的是算法(yield)
 ```
 def reverse(data):
     for index in range(len(data)-1, -1, -1):
