@@ -15,3 +15,12 @@ print(myVar)
 
 [1, 2, 3]
 ```
+- 生成器保存的是算法
+```
+def reverse(data):
+    for index in range(len(data)-1, -1, -1):
+        yield data[index]
+        
+for char in reverse('golf'):
+    print(char)
+```
