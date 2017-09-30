@@ -43,7 +43,7 @@ for char in reverse('golf'):
     ```
     python test.py > log.txt # 覆盖
     python test.py >> log.txt # 追加
-     ```
+    ```
 
 - open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
 
