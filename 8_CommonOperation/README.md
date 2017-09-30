@@ -41,6 +41,7 @@ for char in reverse('golf'):
     ```
 
 - open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+
 |mode|description|
 |:--:|:--|
 |'r' |open for reading (default)|
