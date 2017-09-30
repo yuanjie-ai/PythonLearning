@@ -39,6 +39,7 @@ for char in reverse('golf'):
     print(*range(10), sep=' ', end='\n', file=f)
     f.close()
     ```
+    
     - shell
     ```shell
     python test.py >> log.txt
