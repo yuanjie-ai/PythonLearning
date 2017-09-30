@@ -40,7 +40,6 @@ for char in reverse('golf'):
     f.close()
     ```
     - shell
-    - shell
     ```
     python test.py > log.txt # 覆盖
     python test.py >> log.txt # 追加
