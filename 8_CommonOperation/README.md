@@ -27,8 +27,15 @@ for char in reverse('golf'):
 ```
 
 - print(value, ..., sep=' ', end='\n', file=sys.stdout)
-    - file默认打印到终端
+    - file默认打印到终端
     ```python
-    print(value, ..., sep=' ', end='\n', file=sys.stdout)
+    print(*range(10), sep=' ', end='\n', file=sys.stdout)
+    
+    0 1 2 3 4 5 6 7 8 9
     ```
-    - file打印到指定文件
+    - file打印到指定文件
+    ```python
+    f = open('log.txt', 'w')
+    print(*range(10), sep=' ', end='\n', file=f)
+    f.close()
+    ```
