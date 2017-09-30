@@ -25,3 +25,10 @@ def reverse(data):
 for char in reverse('golf'):
     print(char)
 ```
+
+- print(value, ..., sep=' ', end='\n', file=sys.stdout)
+    - file默认打印到终端
+    ```python
+    print(value, ..., sep=' ', end='\n', file=sys.stdout)
+    ```
+    - file打印到指定文件
