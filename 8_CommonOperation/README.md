@@ -41,7 +41,7 @@ for char in reverse('golf'):
     ```
     
     - shell
-    ```shell
+    ```
     python test.py >> log.txt
     ```
 
