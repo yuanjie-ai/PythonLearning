@@ -44,7 +44,7 @@ for char in reverse('golf'):
     python test.py > log.txt # 覆盖
     python test.py >> log.txt # 追加
     ```
-
+---
 - open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
 
     |mode|description|
@@ -57,3 +57,11 @@ for char in reverse('golf'):
     |'t' |text mode (default)|
     |'+' |open a disk file for updating (reading and writing)|
     |'U' |universal newline mode (deprecated)|
+---
+
+- df增加多列列
+```python
+df = pd.DataFrame({'A': range(1, 11), 'B': np.random.randn(10)})
+df.assign(ln_A = lambda x: np.log(x.A), ln_B = lambda x: np.log(x.A), ...)
+```
+
