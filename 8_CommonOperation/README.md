@@ -65,3 +65,4 @@ df = pd.DataFrame({'A': range(1, 11), 'B': np.random.randn(10)})
 df.assign(ln_A = lambda x: np.log(x.A), ln_B = lambda x: np.log(x.A), ...)
 ```
 
+- df.pipe
