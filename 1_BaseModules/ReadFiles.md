@@ -21,6 +21,7 @@ dump_svmlight_file(X,y,'smvlight.dat',zero_based=True,multilabel=False)
 1 0:0.2221779411574195 1:0.916799481115229
 1 0:0.01015918812655936 1:0.5159480732646645
 ```
+
 ---
 - libsvm
 ```python
