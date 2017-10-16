@@ -8,7 +8,7 @@ df['b'] = np.random.rand(10,)
 df['label'] = list(map(lambda x: -1 if x < 0.5 else 1, np.random.rand(10,)))
 X = df[['x1', 'x2']]
 y = df.label
-dump_svmlight_file(X,y,'smvlight.dat',zero_based=True,multilabel=False)
+dump_svmlight_file(X,y,' libsvm.dat',zero_based=True,multilabel=False)
 
 0 0:0.5962697164566368 1:0.9392180357148177
 1 0:0.9547540606261182 1:0.484083746521063
@@ -27,7 +27,7 @@ dump_svmlight_file(X,y,'smvlight.dat',zero_based=True,multilabel=False)
 ```python
 from sklearn.datasets import load_svmlight_file, load_svmlight_files
 from svmloader import load_svmfile, load_svmfiles
-X, y = load_svmlight_file('./smvlight.dat')
-X, y = load_svmfile('./smvlight.dat')
+X, y = load_svmlight_file('./libsvm.dat')
+X, y = load_svmfile('./libsvm.dat')
 ```
 ---
