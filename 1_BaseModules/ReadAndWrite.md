@@ -31,3 +31,9 @@ X, y = load_svmlight_file('./libsvm.dat')
 X, y = load_svmfile('./libsvm.dat')
 ```
 ---
+- h5
+```python
+# complevel: 压缩级别（1-9，0是无压缩，默认值）, blosc提供非常快的压缩
+df.to_hdf(path, 'w', complib='blosc', complevel=5)
+```
+---
