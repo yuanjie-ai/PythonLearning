@@ -48,6 +48,6 @@ df.to_hdf(path, 'w', complib='blosc', complevel=5)
     |'b' |binary mode|
     |'t' |text mode (default)|
     |'+' |open a disk file for updating (reading and writing)|
-    |'U' |universal newline mode (deprecated)|
+    |'U' |universal newline mode (deprecated)|
     
 ---
