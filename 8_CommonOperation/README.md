@@ -66,3 +66,5 @@ df.assign(ln_A = lambda x: np.log(x.A), ln_B = lambda x: np.log(x.A), ...)
 ```
 
 - df.pipe
+
+- df.groupby('x')['xx'].shift(1): xx下滑Lag一位
