@@ -26,7 +26,7 @@ class p:
 ```
 
 |member_id|linajia_community_org|lianjia_address|col4_disc|level|
-|:--|--:|--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|
 |     6001|                 明湖雅居|       莫愁湖东路12号|address_demp|           1|
 |     6002|                 新旺花苑|        江宁区秣陵街道|address_demp|           0|
 |     6003|                 华庭北园|           华庭北园|address_demp|           2|
