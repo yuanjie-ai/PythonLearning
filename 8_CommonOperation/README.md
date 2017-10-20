@@ -62,3 +62,11 @@ df.assign(ln_A = lambda x: np.log(x.A), ln_B = lambda x: np.log(x.A), ...)
 str.isdigit('1')
 str.isdigit('1s')
 ```
+- func2str
+```
+#获取函数名
+ls = ['a', max, 'b']
+list(map(lambda x: x.__name__ if type(x) != str else x, ls))
+
+['a', 'max', 'b']
+```
