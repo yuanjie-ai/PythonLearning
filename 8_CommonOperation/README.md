@@ -70,3 +70,9 @@ list(map(lambda x: x.__name__ if type(x) != str else x, ls))
 
 ['a', 'max', 'b']
 ```
+
+- coalesce: 返回第一个非空的值
+```
+df['c'] = np.where(df["a"].isnull, df["b"], df["a"] )
+df['c'] = df.a.combine_first(df.b)
+```
