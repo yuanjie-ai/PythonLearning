@@ -1,5 +1,5 @@
-# encoding: utf-8
-__title__ = 'LunarDate'
+# coding: utf-8
+__title__ = 'PyTest'
 __author__ = 'JieYuan'
 __mtime__ = '2017/10/20'
 
@@ -9,6 +9,10 @@ import re
 import time
 import datetime
 import base64
+import numpy as np
+import pandas as pd
+
+__all__ = ['LunarDate']
 
 solar_year = 1900
 solar_month = 1
@@ -528,10 +532,12 @@ def getCalendar_all_day():
     global solar_day
     global solar_weekday
 
-    solar_year = 2017
+    solar_year = 2017 # 此年数据
     solar_month = 1
     weekday_offset = 0  # 1月1号星期几?
     index_day = 0
+    ls = []
+
     for solar_month in range(1, 13):
         if solar_month in [1, 3, 5, 7, 8, 10, 12]:
             solar_day_max = 31
@@ -581,31 +587,52 @@ def getCalendar_all_day():
 
             index_yyddmm = index_yy + index_mm + index_dd
 
-
-
             twitter = ("message(" + str(index_yyddmm) + ') = "') + \
                       str(solar_year) + "年" + str(solar_month) + "月" + str(solar_day) + "日" + " " \
                       + ChineseWord.weekday_str(solar_weekday) + " 农历" + ChineseWord.year_lunar(lunar_year) \
                       + ChineseWord.month_lunar(lunar_isLeapMonth, lunar_month) \
                       + ChineseWord.day_lunar(lunar_day) + festival + '"'
-            res = ','.join([index_yyddmm,
-                            ChineseWord.weekday_str(solar_weekday),
-                            ChineseWord.year_lunar(lunar_year),
-                            ChineseWord.month_lunar(lunar_isLeapMonth, lunar_month) + '' + ChineseWord.day_lunar(lunar_day),
-                            festival])
+            res = [index_yyddmm,
+                   ChineseWord.weekday_str(solar_weekday),
+                   ChineseWord.year_lunar(lunar_year),
+                   ChineseWord.month_lunar(lunar_isLeapMonth, lunar_month) + '' + ChineseWord.day_lunar(lunar_day),
+                   festival]
             # print(twitter)
-            print(res)
-
-    return res
-
+            # print(res)
+            ls.append(res)
+    return ls
 
 def main():
     """
     main function
     """
     # print(base64.b64decode(b'Q29weXJpZ2h0IChjKSAyMDEyIERvdWN1YmUgSW5jLiBBbGwgcmlnaHRzIHJlc2VydmVkLg==').decode())
-    getCalendar_all_day()
-    # getCalendar_today()
+    ls = getCalendar_all_day()
+    df = pd.DataFrame(ls, columns=['日期','周','年','农历', '节气or节日']).replace({'': np.nan})
+    def f(x):
+        if re.match(' 节日', x):
+            ls = re.split('节气：|节日：', x)
+            jc = np.nan
+            jr = ls[-1]
+        elif re.search('节日', x):
+            ls = re.split('节气：|节日：', x)
+            jc = ls[1]
+            jr = ls[-1]
+        else:
+            ls = re.split('节气：|节日：', x)
+            jc = ls[1]
+            jr = np.nan
+        return [jc, jr]
+
+    df = df.assign(m=lambda x: x['节气or节日'].apply(lambda x: f(x) if x is not np.nan else x)) \
+        .assign(节气=lambda x: x.m.apply(lambda x: x[0] if x is not np.nan else x)) \
+        .assign(节气=lambda x: x.节气.apply(lambda x: re.split('# #|#', x)[1:-1] if x is not np.nan else x)) \
+        .assign(节日=lambda x: x.m.apply(lambda x: x[1] if x is not np.nan else x)) \
+        .assign(节日=lambda x: x.节日.apply(lambda x: re.split('# #|#', x)[1:-1] if x is not np.nan else x)).drop(['节气or节日', 'm'], 1)
+
+    df.to_csv(str(solar_year) + '节假日.csv', index=False)
 
 if __name__ == '__main__':
     main()
+
+
