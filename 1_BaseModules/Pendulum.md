@@ -14,7 +14,7 @@ p.add() # 推荐
 p.subtract() 
 str(p.diff(p.add(1))) # pendulum对象作差
 ```
-## 年月日时分秒
+## 年月周日时分秒
 > p = pendulum.create_from_timestamp(time.time(), 'local')
 - p.second
 - p.second_(1)
