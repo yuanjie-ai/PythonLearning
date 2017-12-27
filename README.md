@@ -18,6 +18,7 @@
 - [Matools][13]
 - [Convert Excel sheet to MarkDown Table][15]
 - [Pypi][18]
+- [Pipenv][21]
 - Notepad++
     - Notepad++ ->"运行"菜单->"运行"按钮
     ```
@@ -159,3 +160,4 @@ happybase
 [88]: https://mirrors.ustc.edu.cn/
 [888]: https://mirrors.tuna.tsinghua.edu.cn
 [20]: https://www.programcreek.com/
+[21]: http://blog.csdn.net/dream_allday/article/details/60467131
