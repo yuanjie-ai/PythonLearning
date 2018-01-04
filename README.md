@@ -19,6 +19,7 @@
 - [Convert Excel sheet to MarkDown Table][15]
 - [Pypi][18]
 - [Pipenv][21]
+- [FinalShell服务器管理][22]
 - Notepad++
     - Notepad++ ->"运行"菜单->"运行"按钮
     ```
@@ -161,3 +162,4 @@ happybase
 [888]: https://mirrors.tuna.tsinghua.edu.cn
 [20]: https://www.programcreek.com/
 [21]: http://blog.csdn.net/dream_allday/article/details/60467131
+[22]: http://www.hostbuf.com/t/988.html
