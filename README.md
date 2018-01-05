@@ -13,7 +13,7 @@
 - [Anaconda][2]
 - [WinWheel][3]
 - [Jetbrians注册码][6]
-    - Pycharm默认设置Editor->File and Code Templates
+    - Pycharm默认设置Editor->File and Code Templates
 - [Everything][9]
 - [Matools][13]
 - [Convert Excel sheet to MarkDown Table][15]
