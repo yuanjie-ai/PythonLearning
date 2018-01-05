@@ -78,28 +78,10 @@ c.InteractiveShell.ast_node_interactivity = "all"' >> .ipython/profile_default/i
 ```
 ---
 ## 算法框架
-```
-xgboost
-lightgbm
-keras
-tensorflow
-```
----
-
-## 预处理
-```
-sklearn_pandas
-```
-
-## Json
-```
-json-transporter
-```
----
-
-## 评估指标
-```
-ml_metrics
+```shell
+pip install -U sklearn lightgbm xgboost tensorflow keras keras-tqdm ml_metrics 
+pip install -U seaborn scikit-plot pandas_summary sklearn_pandas
+pip install -U tpot auto_ml mlbox bayesian-optimization
 ```
 ---
 
