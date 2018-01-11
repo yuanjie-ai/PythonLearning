@@ -17,3 +17,11 @@ e = {}
 for k, v in s:
     e[k] = v
 ```
+---
+## 字典计数
+```python
+hmm_model = {i:Counter() for i in 'sbme'}
+# {'b': Counter(), 'e': Counter(), 'm': Counter(), 's': Counter()}
+hmm_model['s']['xxxx']=10
+# {'b': Counter(), 'e': Counter(), 'm': Counter(), 's': Counter({'xxxx': 10})}
+```
