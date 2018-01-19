@@ -77,10 +77,10 @@ echo 'c = get_config()
 c.InteractiveShell.ast_node_interactivity = "all"' >> .ipython/profile_default/ipython_config.py
 ```
 ---
-## 算法框架
+## 常用包
 ```shell
 pip install -U sklearn lightgbm xgboost tensorflow keras keras-tqdm ml_metrics 
-pip install -U seaborn scikit-plot pandas_summary sklearn_pandas
+pip install -U seaborn scikit-plot pandas_summary sklearn_pandas missingno
 pip install -U tpot auto_ml mlbox bayesian-optimization
 ```
 ---
