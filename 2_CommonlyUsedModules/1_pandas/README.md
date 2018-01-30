@@ -29,3 +29,4 @@ Name: ALTDATE, dtype: float64
  df.query('x < 3')
  df[df.x < 3]
 ```
+encoding='latin1'
