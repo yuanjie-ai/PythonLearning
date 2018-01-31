@@ -1,4 +1,5 @@
 - try
+- with...as...
 ```python
 try:
     print("正常的操作")
@@ -12,7 +13,17 @@ else:
 finally:
     print("最后总会执行")
 ```
+```
+file = open("/tmp/foo.txt", 'rb')
+try:
+    data = file.read()
+finally:
+    file.close()
 
+with open("/tmp/foo.txt") as file:
+    data = file.read()
+```
+---
 ```
 try:
     """
