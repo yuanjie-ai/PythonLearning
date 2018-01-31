@@ -1,3 +1,4 @@
+- try
 ```python
 try:
     print("正常的操作")
@@ -48,5 +49,4 @@ def try_exception(num):
 try_exception('xxx')
 #输出异常值
 Invalide literal for int() with base 10: 'xxx' is not a number
-
 ```
