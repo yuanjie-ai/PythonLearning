@@ -1,5 +1,7 @@
 - try
-- with...as...
+- with...as...:
+    - __enter__()
+    - __exit__() 
 ```python
 try:
     print("正常的操作")
