@@ -1,6 +1,7 @@
 <h1 align = "center">:rocket: 莫非 :facepunch:</h1>
 
 ---
+https://www.zhihu.com/question/24590883
 ## 镜像
 - [科大][88]
 - [清华][888]
