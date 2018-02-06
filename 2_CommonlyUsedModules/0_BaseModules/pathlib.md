@@ -1,4 +1,6 @@
-# 创建Path对象
+https://www.cnblogs.com/sigai/p/8074329.html
+---
+## 创建Path对象
 ```
 from pathlib import Path
 p = Path(_path)
@@ -8,7 +10,7 @@ print(p)
 /algor/yuanjie/Competitions/1_糖尿病/DataCache
 ```
 
-# p的父路径
+## p的父路径
 ```
 p.as_uri() # 'file:///algor/yuanjie/Competitions/1_%E7%B3%96%E5%B0%BF%E7%97%85/DataCache'
 p.parent # p.parents[0]
@@ -24,7 +26,7 @@ Out[72]:
  PosixPath('/')]
 ```
 
-# p目录下的所有文件
+## p目录下的所有文件
 ```
 list(p.iterdir()) # list(p.glob('*'))
 ```
@@ -35,7 +37,7 @@ list(p.iterdir()) # list(p.glob('*'))
  PosixPath('/algor/yuanjie/Competitions/1_糖尿病/DataCache/f_train_20180204.csv')]
 ```
 
-# 判断
+## 判断
 ```
 p.is_dir() # 判断p是不是目录
 p.is_file() # 判断p是不是文件
