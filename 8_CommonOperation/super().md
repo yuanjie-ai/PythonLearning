@@ -1,4 +1,4 @@
-## super(): 用于调用父类(超类)的一个方法
+## [super(): 用于调用父类(超类)的一个方法][1]
 
 ```python
 class Base(object):
@@ -16,3 +16,6 @@ class childB(Base):
         print 'creat B ',
         super(childB, self).__init__()
 ```
+
+---
+[1]: http://www.runoob.com/python/python-func-super.html
