@@ -6,3 +6,35 @@
 - @property: 可读
 - @xx.setter: 可写
 - @xx.deleter: 可删除
+
+```python
+class Student(object):
+    def __init__(self):
+        self._age = None
+
+    @property
+    def age(self):
+        return self._age
+
+    @age.setter
+    def age(self, age):
+        if isinstance(age, int):
+            self._age = age
+            return
+        if isinstance(age, str) and age.isdigit():
+            age = int(age)
+            self._age = age
+        else:
+            raise ValueError("age is illegal")
+
+    @age.deleter
+    def age(self):
+        del self._age
+
+
+student = Student()
+student.age = 20
+print student.age
+
+del student.age
+```
