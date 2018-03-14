@@ -16,7 +16,7 @@ import functools
 def decorator(func):
     @functools.wraps(func)
     def wrapper(*args, **kw):
-        print('call %s():' % func.__name__)
+        print('call %s():' % func.__name__)  # 主体
         return func(*args, **kw)
 
     return wrapper 
