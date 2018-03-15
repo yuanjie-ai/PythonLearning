@@ -91,3 +91,20 @@ spam(1, 2, 3)
 
 ```
 
+```python
+def decorator(text=11):
+    def _wrapper(func):
+
+        def wrapper(x=text, *args, **kw):
+            print('text = %s' % text)  # 主体
+            return func(x, *args, **kw)
+
+        return wrapper
+
+    return _wrapper
+
+@decorator(99999999999999)
+def f(x=1, y=2):
+    print(x+y)
+```
+
