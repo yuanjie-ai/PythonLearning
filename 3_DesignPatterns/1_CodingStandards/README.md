@@ -10,6 +10,7 @@
 - http://www.imooc.com/article/19184?block_id=tuijian_wz#child_5_1
 - http://www.runoob.com/w3cnote/google-python-styleguide.html
 
+---
 ## 2. 被动接受（工具）
 - IntelliJ IDEA 和 PyCharm 的格式化代码功能: `ctrl + l`
 - Google 开源的 Python 文件格式化工具: `pip install yapf`
