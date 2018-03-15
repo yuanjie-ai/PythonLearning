@@ -3,7 +3,8 @@
 ---
 ## 1. 主动遵循
 ![主要][1]
-Refer:
+
+### Refer:
 - http://blog.csdn.net/qq_27657429/article/details/65449283
 - http://blog.csdn.net/s1070/article/details/73529570
 - http://www.imooc.com/article/19184?block_id=tuijian_wz#child_5_1
