@@ -27,7 +27,11 @@ https://www.zhihu.com/question/24590883
     cmd /k python "$(FULL_CURRENT_PATH)" & ECHO. & PAUSE & EXIT
     ```
 ---
+# 流程图
+- Xmind
+- [draw.io][23]
 
+---
 # 资源类
 - [最新emoji][16]
 - [emoji速查][17]
@@ -85,19 +89,7 @@ pip install -U seaborn scikit-plot pandas_summary sklearn_pandas missingno
 pip install -U tpot auto_ml mlbox bayesian-optimization
 ```
 ---
-
 ## 数据库
----
-### Sql
-- ORM
-```
-sqlalchemy
-```
-- MySql
-```
-pymysql
-```
----
 - Hive
 > sqlalchemy中hive的url形式: hive://localhost:port/database?auth=XX
 ```
@@ -110,13 +102,7 @@ thriftpy
 ply
 sqlalchemy
 ```
----
-### NoSql
----
-- HBase
-```
-happybase
-```
+
 
 
 
@@ -146,3 +132,4 @@ happybase
 [20]: https://www.programcreek.com/
 [21]: http://blog.csdn.net/dream_allday/article/details/60467131
 [22]: http://www.hostbuf.com/t/988.html
+[23]: https://www.draw.io/
