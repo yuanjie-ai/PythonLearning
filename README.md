@@ -28,8 +28,8 @@ https://www.zhihu.com/question/24590883
     ```
  - 流程图
     - Xmind
-    - [draw.io][23]
-    - [processon][24]
+    - [draw.io][23]: [桌面版][25]
+    - [processon][24]
 ---
 # 资源类
 - [最新emoji][16]
@@ -133,3 +133,4 @@ sqlalchemy
 [22]: http://www.hostbuf.com/t/988.html
 [23]: https://www.draw.io/
 [24]: https://www.processon.com/
+[25]: https://github.com/jgraph/drawio-desktop/releases
