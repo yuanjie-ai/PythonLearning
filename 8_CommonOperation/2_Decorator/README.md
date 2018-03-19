@@ -11,12 +11,20 @@
 ```
 import wrapt
 
-# without argument in decorator
+
 @wrapt.decorator
 def logging(func, instance, args, kwargs):  # instance is must
     print ("[DEBUG]: enter {}()".format(func.__name__))
     return func(*args, **kwargs)
-
+ 
+# without argument in decorator
+def with_arguments(myarg1, myarg2):
+    @wrapt.decorator
+    def wrapper(func, instance, args, kwargs):
+        print ("[DEBUG]: enter {}()".format(func.__name__))
+        return func(*args, **kwargs)
+    return wrapper
+    
 from decorator import decorator
 @decorator
 def _logging(func, *args, **kwargs):
