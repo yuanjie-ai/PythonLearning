@@ -87,6 +87,7 @@ c.InteractiveShell.ast_node_interactivity = "all"' >> .ipython/profile_default/i
 pip install -U sklearn rgf_python lightgbm xgboost tensorflow keras keras-tqdm ml_metrics 
 pip install -U seaborn scikit-plot pandas_summary sklearn_pandas missingno
 pip install -U tpot auto_ml mlbox bayesian-optimization
+thefuck
 ```
 ---
 ## 数据库
