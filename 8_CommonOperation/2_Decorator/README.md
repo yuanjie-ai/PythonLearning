@@ -6,6 +6,8 @@
 @staticmethod
 @classmethod
 ```
+- `wrapt`
+- `from decorator import decorate`
 
 ---
 ## 自定义装饰器
