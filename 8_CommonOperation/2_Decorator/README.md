@@ -8,7 +8,7 @@
 ```
 - `wrapt`
 - `from decorator import decorate`
-```
+```python
 import wrapt
 
 
