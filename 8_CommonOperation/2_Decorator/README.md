@@ -8,7 +8,29 @@
 ```
 - `wrapt`
 - `from decorator import decorate`
+```
+import wrapt
 
+# without argument in decorator
+@wrapt.decorator
+def logging(func, instance, args, kwargs):  # instance is must
+    print ("[DEBUG]: enter {}()".format(func.__name__))
+    return func(*args, **kwargs)
+
+from decorator import decorator
+@decorator
+def _logging(func, *args, **kwargs):
+    print ("[DEBUG]: enter {}()".format(func.__name__))
+    return func(*args, **kwargs)
+
+@logging
+def say(): 
+    pass
+
+@_logging
+def _say():
+    pass
+```
 ---
 ## 自定义装饰器
 ### 1. 普通装饰器
