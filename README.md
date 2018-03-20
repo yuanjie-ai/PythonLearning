@@ -5,7 +5,7 @@ https://www.zhihu.com/question/24590883
 ## 镜像
 - [科大][88]
 - [清华][888]
-
+- [阿里源][26]
 ---
 ## 工具类
 - [Linux][0]
@@ -136,3 +136,4 @@ sqlalchemy
 [23]: https://www.draw.io/
 [24]: https://www.processon.com/
 [25]: https://github.com/jgraph/drawio-desktop/releases
+[26]: https://opsx.alibaba.com/mirror
