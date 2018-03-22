@@ -1,4 +1,4 @@
-- `pandas`
+- `Pandas`
 ```python
 from joblib import Parallel, delayed
 import multiprocessing
