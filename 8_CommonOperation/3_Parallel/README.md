@@ -1,4 +1,4 @@
-- `Pandas`
+- `Pandas`: `Parallel(n_jobs=8)(delayed(sqrt)(i**2) for i in range(1000000))`
 ```python
 from joblib import Parallel, delayed
 import multiprocessing
