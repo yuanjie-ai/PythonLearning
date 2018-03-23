@@ -1,3 +1,4 @@
+- all
 ```python
 def read(file):
     with open(file) as f:
@@ -10,4 +11,8 @@ def write(text, file, overwrite=True):
     else:
         with open(file, 'a') as f:
             f.write(text)
+```
+
+- by line
+```python
 ```
