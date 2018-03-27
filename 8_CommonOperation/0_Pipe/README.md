@@ -12,7 +12,7 @@ class CLS:
 CLS().method().method2() # jQuery like chain
 ```
 
-- Pipe
+- [Pipe][1]
 
 - [tqdm][2]
 ```python
@@ -21,4 +21,5 @@ for char in tqdm(["a", "b", "c", "d"], desc='%s' % char):
     print(char)
 ```
 ---
+[1]: https://github.com/JulienPalard/Pipe
 [2]: https://lorexxar.cn/2016/07/21/python-tqdm/
